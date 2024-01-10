@@ -1,0 +1,425 @@
+
+
+@media all and (max-width: 1199px){
+	/* My */
+	.heading1 {
+		font-size: 64px;
+	}
+	.text_48 {
+		font-size: 27px;
+	}
+	.text_36 {
+		font-size: 21px;
+	}
+	.heading2 {
+		font-size: 45px;
+	}
+	.heading3 {
+		font-size: 40px;
+	}
+	.text_42 {
+		font-size: 23px;
+		line-height: 30px;
+	}
+	.text_58 {
+		font-size: 30px;
+	}
+	.Communities_left .heading4 {
+		padding-bottom: 40px;
+	}
+
+	.introducing-details .contact .text_34 {
+		font-size: 20px;
+	}
+	.introducing-img {
+		max-width: 380px;
+	}
+	.tokenomics-list li .title {
+		max-width: 300px;
+	}
+	.introducing-section {
+		padding: 80px 0 170px 0;
+	}
+	.holder-benefit-title {
+		margin-bottom: 50px;
+	}
+	.holder-benefit-single .img {
+		max-width: 50px;
+	}
+	.holder-benefit-single {
+		padding: 25px 35px;
+	}
+	.holder-benefit-section {
+		padding-bottom: 180px;
+	}
+	.banner_content{
+		padding-top: 80px;
+	}
+	.arcticBannerBottom{
+		padding-bottom: 100px;
+	}
+	.Partner-area {
+		padding-bottom: 150px;
+	}
+	.Borrow-area {
+		padding-bottom: 150px;
+	}
+	/* Update */
+	.Faq-area {
+		padding-bottom: 200px;
+	}
+	.footer_area {
+		padding-bottom: 80px;
+	}
+	.header-logo .logo2 img {
+		max-width: 100px;
+	}
+	.logo_items {
+		gap: 32px;
+		padding-left: 20px;
+	}
+	.line_item::after {
+		height: 16px;
+		right: -16px;
+	}
+	.roadmap_content{
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+}
+
+@media all and (max-width: 1024px){
+	.Communities_content {
+		flex-direction: column;
+	}
+	.left_single_communities .text_58 {
+		padding-bottom: 5px;
+	}
+	.left_single_communities img {
+		height: 50px;
+	}
+	.left_single_communities {
+		padding-bottom: 40px;
+		padding-left: 0px;
+	}
+	.Communities-area {
+		padding-bottom: 120px;
+	}
+	.Faq-area {
+		padding-bottom: 150px;
+	}
+	.single_footer_item .text_48{
+		font-size: 30px;
+	}
+	.left_single_communities .text_42 {
+		font-size: 21px;
+	}
+
+}
+@media all and (min-width: 992px){
+	.header-menu{
+		display: flex !important;
+	}
+
+}
+@media all and (max-width: 991px){
+	/* Mobile menu ----------------------------*/
+	.header-button {
+		display: none;
+	}
+	.mobile-headerbtn{
+		display: block;
+	}
+	.mobile-menu {
+		display: block;
+	}
+	.desk_item{
+		display: none !important;
+	}
+	.line_item::after{
+		display: none;
+	}
+	.logo_items {
+		gap: 0px;
+		padding-left: 0px;
+	}
+	.moblile_item{
+		display: flex !important;
+	}
+	.header-nav nav{
+		position: absolute;
+		width: calc(100% + 40px);
+		top: 100%;
+		left: -20px;
+		background: #000;
+		box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+		padding:40px 0;
+		box-sizing: border-box;
+		text-align: center;
+		display: none;
+		z-index: 9999999;
+	}
+	.header-nav nav ul{
+		flex-direction: column;	
+	}
+	.header-nav nav ul li{
+		margin-bottom: 30px;
+	}
+	/* My */
+	.heading1 {
+		font-size: 48px;
+	}
+	.text_48 {
+		font-size: 22px;
+	}
+	.text_36 {
+		font-size: 18px;
+	}
+	.heading2 {
+		font-size: 37px;
+	}
+
+	.text_48 {
+		font-size: 20px;
+	}
+	.text_42 {
+		font-size: 19px;
+	}
+	.heading5 {
+		font-size: 35px;
+	}
+
+	.introducing-details .contact .text_34 {
+		font-size: 18px;
+	}
+	.introducing-section {
+		padding: 70px 0 80px 0;
+	}
+	.tokenomics-img {
+		max-width: 240px;
+	}
+	.tokenomics-list li .title {
+		max-width: 230px;
+	}
+	.holder-benefit-single {
+		min-height: 300px;
+		padding: 20px 25px;
+	}
+	.holder-benefit-section {
+		padding-bottom: 130px;
+		padding-top: 110px;
+	}
+
+	/* update */
+	.header-logo a img {
+		width: 170px;
+		height: 50px;
+	}
+	.banner_content .text_48 {
+		padding-bottom: 50px;
+	}
+	.Borrow_content {
+		flex-direction: column;
+	}
+	.right_single_borrow {
+		margin-top: 80px;
+	}
+	.Partner-area {
+		padding-bottom: 100px;
+	}
+	.Borrow-area {
+		padding-bottom: 100px;
+	}
+	.token_info_box::after {
+		bottom: -20px;
+		border-radius: 0px 0px 20px 20px;
+	}
+	.Faq-area {
+		padding-bottom: 100px;
+	}
+	.footer_area {
+		padding-bottom: 60px;
+	}
+	.roadmap_area {
+		margin-bottom: 130px;
+	}
+
+	/* New */
+	.input-wrap-pb{
+		padding-bottom: 80px;
+	}
+	.mobil_token{
+		display: block;
+	  }
+	  .accordion-body .text_30 {
+		line-height: 28px;
+	}
+	/* .launchedTokents_top_item {
+		flex-direction: column;
+	} */
+
+}
+
+@media all and (max-width:767px){
+	/* My */
+	.heading5 {
+		font-size: 28px;
+	}
+	.introducing-area{
+		flex-direction: column;
+		row-gap: 30px;
+	}
+	.introducing-buttons{
+		flex-wrap: wrap;
+		row-gap: 30px;
+	}
+	.introducing-img{
+		margin: auto;
+	}
+	.tokenomics-area{
+		flex-direction: column;
+		row-gap: 30px;
+	}
+	.tokenomics-img{
+		margin: auto;
+	}
+	.tokenomics-details{
+		order: -1;
+	}
+	.introducing-section {
+		padding: 70px 0 0 0;
+	}
+	.tokenomics-details {
+		margin-top: 0px;
+	}
+	.tokenomics-section{
+		padding-top: 30px;
+	}
+
+	/* update  */
+
+	.partner_title p {
+		padding-bottom: 35px;
+	}
+	.single_borrow {
+		padding: 30px 35px 50px 35px;
+	}
+	.single_borrow .heading5{
+		padding-bottom: 20px;
+	}
+	.token_info_box {
+		border-radius: 20px;
+	}
+	.Faq_title {
+		padding-bottom: 60px;
+	}
+	.accordion-button {
+		padding: 20px 30px 20px 30px;
+		font-size: 20px;
+	}
+	.accordion-body .text_30{
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.single_footer_item .text_48{
+		font-size: 24px;
+	}
+
+	.mcg-53>* {
+		--bs-gutter-x: inherit;
+	}
+	.single_borrow {
+		border-radius: 25px;
+	}
+	.single_roadmap {
+		padding: 30px 30px 40px 30px;
+	}
+	.odd_roadmap {
+		box-shadow: 0px 20px 0px 0px #7B7777;
+	}
+	.roadmap_area {
+		margin-bottom: 110px;
+	}
+
+	/* New */
+	.input-wrap-pb{
+		padding-bottom: 50px;
+	}
+	
+	.borrow_text_left span, .token_borrow_item span {
+		font-size: 26px;
+	}
+	.single_preview_token span {
+		font-size: 18px;
+	}
+	.sidebar.expand ~ .home {
+		left: 0;
+		width: 100%;
+	}
+
+
+}
+@media all and (max-width:575px){
+	/* My */
+	.introducing-details .contact .text_34 {
+		font-size: 14px;
+	}
+	/* update */
+	.Faq_title {
+		padding-bottom: 40px;
+	}
+	.single_partner img {
+		height: 30px;
+	}
+	/* New */
+	.single_input_group label {
+		font-size: 17px;
+		left: 20px;
+		top: 15px;
+	}
+	.single_input_group input {
+		padding: 35px 20px 15px 20px;
+	}
+	.token_arow_box img{
+		max-width: 20px;
+	}
+	.continue_btn{
+		font-size: 20px;
+	}
+	.token_arow_box {
+		min-width: 80px;
+		width: 80px;
+		height: 65px;
+	}
+	.single-input-wrap{
+		flex-direction: column;
+	}
+	.single-input-wrap .single_input_group{
+		width: 100%;
+	}
+	.tokent_review_left {
+		padding: 18px;
+	}
+
+}
+
+
+@media all and (max-width:450px){
+	/* My */
+	.introducing-details .contact .text_34 {
+		font-size: 12px;
+	}
+	.single_preview_token span {
+		font-size: 14px;
+	}
+
+}
+
+
+@media all and (max-width:375px){
+	/* My */
+	.single_preview_token p, .borrow_text_left p, .token_borrow_item p {
+		font-size: 14px;
+	}
+
+}
